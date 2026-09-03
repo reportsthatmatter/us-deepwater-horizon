@@ -1,0 +1,13 @@
+{
+  "name": "us-deepwater-horizon",
+  "title": "Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling",
+  "resources": [
+    {
+      "title": "Report to the President — National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling",
+      "path": "archive/deep-water.pdf",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "sources": [{ "web": "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf" }]
+    }
+  ]
+}
