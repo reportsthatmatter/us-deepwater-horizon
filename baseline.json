@@ -1,9 +1,9 @@
 {
-  "markdownSha": "7f58dfefe3639fd7017a1afbfab5872c2b38a1c86cc48a1c9f0969411424bfeb",
-  "words": 179927,
+  "markdownSha": "1dbb6fb4bd0666b793c1cbe5f94d1e059b7bb0a9207bdcbd55c1f3dd5e9a0f48",
+  "words": 180091,
   "blocks": {
     "heading": 55,
-    "quote": 881,
+    "quote": 876,
     "list": 140,
     "paragraph": 1307
   },
@@ -64,7 +64,7 @@
     "INDEX",
     "Notes"
   ],
-  "footnotes": 775,
+  "footnotes": 794,
   "pageMarkers": 337,
   "poppler": "26.08.0"
 }
