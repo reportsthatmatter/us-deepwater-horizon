@@ -1,4 +1,11 @@
-import { pipeline, runningFurniture } from "@rtm/ingest";
+import {
+  pipeline,
+  geometry,
+  allCapsHeadings,
+  listedDivisions,
+  wrappedHeadings,
+  runningFurniture,
+} from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -18,5 +25,25 @@ export default pipeline({
       sha256: "f0a242909914e4d00200005734ce9b240b1b4c58e0e8af04e95387717780b23c",
     },
   ],
-  passes: [runningFurniture()],
+  passes: [
+    // The book is set with a gutter: left-hand (even) pages sit four columns
+    // further in than right-hand ones. Against one document margin every
+    // even page's text read as inset, and 816 of its paragraphs became block
+    // quotations with no ids (reportsthatmatter-eyc). Each page's margin is
+    // measured on its own.
+    geometry("per-page"),
+    runningFurniture(),
+    // The report's sections are its Foreword, parts, chapters, endnotes and
+    // appendices, which the contents lists; chapter openers set their titles
+    // a word or two to a line with no blank before the text, so they are
+    // read from the contents (reportsthatmatter-a0z).
+    listedDivisions(),
+    // Nothing the report sets in capitals on a line of its own is a heading:
+    // those are figure captions and map labels ("SANTA BARBARA OIL SPILL",
+    // "MS AL LA GA"), and a signature ("BARACK OBAMA"). "ENDNOTES" and
+    // "INDEX" come back from the contents.
+    allCapsHeadings(false),
+    // Chapter 9's "4. The Need for … to Improve Spill" / "Response".
+    wrappedHeadings(),
+  ],
 });
