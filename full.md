@@ -7,9 +7,11 @@ pages: 386
 footnotes: 794
 ---
 
-i i
+%%page i%%
 
-Dedication This report is dedicated to the 11 men who lost their lives on the Deepwater Horizon rig on April 20, 2010 and to their families, in hope that this report will help minimize the chance of another such disaster ever happening again. Jason Anderson Aaron Dale Burkeen Donald Clark Stephen Curtis Gordon Jones Roy Wyatt Kemp Karl Dale Kleppinger, Jr. Blair Manuel Dewey Revette Shane Roshto Adam Weise ii
+Dedication This report is dedicated to the 11 men who lost their lives on the Deepwater Horizon rig on April 20, 2010 and to their families, in hope that this report will help minimize the chance of another such disaster ever happening again. Jason Anderson Aaron Dale Burkeen Donald Clark Stephen Curtis Gordon Jones Roy Wyatt Kemp Karl Dale Kleppinger, Jr. Blair Manuel Dewey Revette Shane Roshto Adam Weise
+
+%%page ii%%
 
 Acknowledgements We wish to acknowledge the many individuals and organizations, government officials and agencies alike that offered their views and insights to the Commission. We would especially like to express our gratitude to the Coast Guard's Incident Specific Preparedness Review (ISPR) for allowing Commission staff to participate in its interviews and discussions, which was invaluable to the preparation of this report. (A copy of the Coast Guard's ISPR report can be found at the Commission's website at www.oilspillcommission. gov). We would also like to thank Chevron for performing the cement tests that proved so critical to our investigation into the Macondo well blowout.
 
@@ -25,9 +27,19 @@ This report contains links to many Web sites. Once you access another site throu
 
 Cover Photo: © Steadfast TV
 
-ISBN: 978-0-16-087371-3 iii iii
+ISBN: 978-0-16-087371-3
 
-Deep Water The Gulf Oil Disaster and the Future of Offshore Drilling Report to the President National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling January 2011 iv
+%%page iii%%
+
+Deep Water The Gulf Oil Disaster and the Future of Offshore Drilling
+
+Report to the President
+
+National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling
+
+January 2011
+
+%%page iv%%
 
 Commission Members
 
@@ -43,7 +55,9 @@ Terry D. Garcia
 
 Cherry A. Murray
 
-Fran Ulmer v v
+Fran Ulmer
+
+%%page v%%
 
 Table of Contents Foreword vi
 
@@ -115,7 +129,7 @@ Appendices
 
 - Index — 368
 
-vi
+%%page vi%%
 
 Photo: Susan Walsh, Associated Press
 
@@ -129,7 +143,7 @@ On May 22, 2010, President Barack Obama announced the creation of the National C
 
 This report is the result of an intense six-month effort to fulfill the President's charge.
 
-vii vii
+%%page vii%%
 
 From the outset, the Commissioners have been determined to learn the essential lessons so expensively revealed in the tragic loss of life at the Deepwater Horizon and the severe damages that ensued. The Commission's aim has been to provide the President, policymakers, industry, and the American people a clear, accessible, accurate, and fair account of the largest oil spill in U.S history: the context for the well itself, how the explosion and spill happened, and how industry and government scrambled to respond to an unprecedented emergency. This was our first obligation: determine what happened, why it happened, and explain it to Americans everywhere.
 
@@ -141,7 +155,9 @@ As a result of our investigation, we conclude:
 - To assure human safety and environmental protection, regulatory oversight of leasing, energy exploration, and production require reforms even beyond those significant reforms already initiated since the Deepwater Horizon disaster. Fundamental reform will be needed in both the structure of those in charge of regulatory oversight and their internal decisionmaking process to ensure their political autonomy, technical expertise, and their full consideration of environmental protection concerns.
 - Because regulatory oversight alone will not be sufficient to ensure adequate safety, the oil and gas industry will need to take its own, unilateral steps to increase dramatically safety throughout the industry, including self-policing mechanisms that supplement governmental enforcement.
 - The technology, laws and regulations, and practices for containing, responding to, and cleaning up spills lag behind the real risks associated with deepwater drilling into large, high-pressure reservoirs of oil and gas located far offshore and thousands of feet below the ocean's surface. Government must close the existing gap and industry must support rather than resist that effort.
-- Scientific understanding of environmental conditions in sensitive environments in deep Gulf waters, along the region's coastal habitats, and in areas proposed for more drilling, such as the Arctic, is inadequate. The same is true of the human and natural impacts of oil spills. viii
+- Scientific understanding of environmental conditions in sensitive environments in deep Gulf waters, along the region's coastal habitats, and in areas proposed for more drilling, such as the Arctic, is inadequate. The same is true of the human and natural impacts of oil spills.
+
+%%page viii%%
 
 We reach these conclusions, and make necessary recommendations, in a constructive spirit: we aim to promote changes that will make American offshore energy exploration and production far safer, today and in the future.
 
@@ -153,7 +169,7 @@ Why was a corporation drilling for oil in mile-deep water 49 miles off the Louis
 
 Even as land-based oil production extended as far as the northern Alaska frontier, the oil and gas industry began to move offshore. The industry first moved into shallow water and eventually into deepwater, where technological advances have opened up vast new reserves of oil and gas in remote areas—in recent decades, much deeper under the water's surface and farther offshore than ever before. The Deepwater Horizon was drilling the Macondo well under 5,000 feet of Gulf water, and then over 13,000 feet under the sea floor to the hydrocarbon reservoir below. It is a complex, even dazzling, enterprise. The remarkable advances that have propelled the move to deepwater drilling merit comparison with exploring outer space. The Commission is respectful and admiring of the industry's technological capability.
 
-ix ix
+%%page ix%%
 
 But drilling in deepwater brings new risks, not yet completely addressed by the reviews of where it is safe to drill, what could go wrong, and how to respond if something does go awry. The drilling rigs themselves bristle with potentially dangerous machinery. The deepwater environment is cold, dark, distant, and under high pressures—and the oil and gas reservoirs, when found, exist at even higher pressures (thousands of pounds per square inch), compounding the risks if a well gets out of control. The Deepwater Horizon and Macondo well vividly illustrated all of those very real risks. When a failure happens at such depths, regaining control is a formidable engineering challenge—and the costs of failure, we now know, can be catastrophically high.
 
@@ -167,7 +183,7 @@ The Commission also looked at the effectiveness of the response to the spill. Th
 
 *The chief counsel's investigation was no doubt complicated by the lack of subpoena power. Nonetheless, Chief Counsel Bartlit did an extraordinary job building the record and interpreting what he learned. He used his considerable powers of persuasion along with other tools at his disposal to engage the involved companies in constructive and informative exchanges.
 
-x
+%%page x%%
 
 If we are to make future deepwater drilling safer and more environmentally responsible, we will need to address all these deficiencies together; a piecemeal approach will surely leave us vulnerable to future crises in the communities and natural environments most exposed to offshore energy exploration and production.
 
@@ -179,7 +195,9 @@ But those benefits have imposed their costs. The bayous and wetlands of Louisian
 
 We advocate beginning such an effort, seriously and soon, as a suitable response to the damage and disruption caused by the Deepwater Horizon emergency. It is a fair recognition not only of the costs that energy exploitation in the Gulf has, for decades, imposed on the landscape and habitats—and the other economic activities they support—but also of the certainty that Americans will continue to develop the region's offshore energy resources.
 
-For the simple fact is that the bulk of our newly discovered petroleum reserves, and the best prospects for future discoveries, lie not on land, but under water. To date, we have xi xi made the decision as a nation to exploit the Gulf 's offshore energy resources—ruling much of the Florida, Atlantic, and Pacific coasts out of bounds for drilling. The choice of how aggressively to exploit these resources, wherever they may be found, has profound implications for the future of U.S. energy policy, for our need to understand and assure the integrity of fragile environmental resources, and for the way Americans think about our economy and our security. Although much work is being done to improve the fuel- efficiency of vehicles and to develop alternative fuels, we cannot realistically walk away from these offshore oil resources in the near future. So we must be much better prepared to exploit such resources with far greater care.
+For the simple fact is that the bulk of our newly discovered petroleum reserves, and the best prospects for future discoveries, lie not on land, but under water. To date, we have made the decision as a nation to exploit the Gulf 's offshore energy resources—ruling much of the Florida, Atlantic, and Pacific coasts out of bounds for drilling. The choice of how aggressively to exploit these resources, wherever they may be found, has profound implications for the future of U.S. energy policy, for our need to understand and assure the integrity of fragile environmental resources, and for the way Americans think about our economy and our security. Although much work is being done to improve the fuel- efficiency of vehicles and to develop alternative fuels, we cannot realistically walk away from these offshore oil resources in the near future. So we must be much better prepared to exploit such resources with far greater care.
+
+%%page xi%%
 
 The Commission and Its Work While we took a broad view of the spill, it could not be exhaustive. There is still much we do not know—for instance, the blowout preventer, the last line of defense against loss of well control, is still being analyzed; and the Deepwater Horizon itself, after its explosive destruction, remained out of reach during our investigation. The understandable, immediate need to provide answers and concrete suggestions trumped the benefits of a longer, more comprehensive investigation. And as we know from other spills, their environmental consequences play out over decades—and often in unexpected ways. Instead, the Commission focused on areas we thought most likely to inform practical recommendations. Those recommendations are presented in the spirit of transforming America into the global leader for safe and effective offshore drilling operations. Just as this Commission learned from the experiences of other nations in developing our recommendations, the lessons learned from the Deepwater Horizon disaster are not confined to our own government and industry, but relevant to rest of the world.
 
@@ -191,7 +209,7 @@ Chapters 1 through 3 describe the events of April 20th on the Deepwater Horizon,
 
 Chapters 4 through 7 lay out the results of our investigation in detail, highlighting the crucial issues we believe must inform policy going forward: the specific engineering and operating choices made in drilling the Macondo well, the attempts to contain and respond to the oil spill, and the impacts of the spill on the region's natural resources, economy, and people—in the context of the progressive degradation of the Mississippi Delta environment.
 
-xii
+%%page xii%%
 
 Chapters 8 through 10 present our recommendations for reforms in business practices, regulatory oversight, and broader policy concerns. We recognize that the improvements we advocate all come with costs and all will take time to implement. But inaction, as we are deeply aware, runs the risk of real costs, too: in more lost lives, in broad damage to the regional economy and its long-term viability, and in further tens of billions of dollars of avoidable clean-up costs. Indeed, if the clear challenges are not addressed and another disaster happens, the entire offshore energy enterprise is threatened—and with it, the nation's economy and security. We suggest a better option: build from this tragedy in a way that makes the Gulf more resilient, the country's energy supplies more secure, our workers safer, and our cherished natural resources better protected.
 
@@ -201,7 +219,9 @@ Finally, to the American people, we reiterate that extracting the energy resourc
 
 Bob Graham, Co-Chair
 
-William K. Reilly, Co-Chair xiii xiii xiii
+William K. Reilly, Co-Chair
+
+%%page xiii%%
 
 ## Part I: The Path to Tragedy
 
@@ -501,13 +521,13 @@ On board the Bankston, the atmosphere was grim. The crew was forbidden to call h
 
 The survivors sat on the boat in shock and watched the firestorm on the rig rage unabated, its plume of black smoke boiling up high into the night. At 1:30 a.m., the rig listed and rotated in the wake of more secondary explosions. Work boats, which had begun arriving and spraying water on the rig in response to the Mayday call, moved back.179 By 2:50 a.m., the Deepwater Horizon had spun 180 degrees and, its dynamic positioners dead, moved 1,600 feet from the well. By 3:15 a.m., when the U.S. Coast Guard cutter Pompano arrived on the scene,180 the rig was listing heavily. Dennis Martinez realized his dead father's ring, which he removed only when working, was still on the rig.181
 
-The three men in the Ramblin' Wreck had continued to scour the waters near the rig, looking for survivors or the dead. Several times, they spotted what they thought might be
+The three men in the Ramblin' Wreck had continued to scour the waters near the rig, looking for survivors or the dead. Several times, they spotted what they thought might be a body, only to find it was debris.182 They heard rumbling sounds coming from deep below the surface of the water—possibly underwater explosions as the rig burned, exploded, listed, and drifted. Frightened, they still kept to their search. After rescue boats came on the scene, they ferried medical supplies between one of those and the Bankston. At 3:00 a.m., the three fishermen headed home.
 
 %%page 18%%
 
 "I could see nothing but flames way past the crown," chief engineer Steve Bertone recalled of the dramatic moments before he ordered crew members to abandon the rig. Of the 115 survivors,[^16] were seriously injured and medevaced to hospitals. Ninety-nine others, including Bertone, were transported to the mainland by the rescue vessel Bankston. Roughly 36 hours after the first explosion, Deepwater Horizon sank to the bottom. It was April 22—Earth Day.
 
-Gerald Herbert/Associated Press a body, only to find it was debris.182 They heard rumbling sounds coming from deep below the surface of the water—possibly underwater explosions as the rig burned, exploded, listed, and drifted. Frightened, they still kept to their search. After rescue boats came on the scene, they ferried medical supplies between one of those and the Bankston. At 3:00 a.m., the three fishermen headed home.
+Gerald Herbert/Associated Press
 
 On the Bankston, the Deepwater Horizon crew deeply wished they could do the same. As the largest boat in the vicinity, the Bankston had been ordered by the Coast Guard to stay put while the search and rescue effort unfolded. The search helicopters buzzed overhead, methodically surveying one sector after another. Once the 16 injured were evacuated, said Bertone, "[I] made my way up to one of the upper levels and sat there and watched the rig burn."183 As oil and gas exploded up and out of the riser, the towering flames set fire to tanks and pipes, sending yet more roiling black smoke high into the sky.
 
@@ -933,11 +953,11 @@ As President Obama spoke, Transocean's Deepwater Horizon—fresh from completing
 
 The Deepwater Horizon rig sank on April 22, 2010, two days after the Macondo well blowout and explosion that killed 11 workers. Not long after the tragedy, its repercussions shifted to the Minerals Management Service (MMS), the federal agency responsible for overseeing the well's drilling and operation. Nineteen days after the rig sank, Secretary of the Interior Ken Salazar announced his intention to strip MMS's safety and environmental enforcement responsibilities away from its leasing, revenue collection, and permitting functions, and to place the former within a "separate and independent" entity.1 A week later, he announced MMS would be reorganized into three separate entities with distinct missions: a Bureau of Ocean Energy Management; a Bureau of Safety and Environmental Enforcement; and an Office of Natural Resources Revenue.2 And, by June 19, the Secretary had discarded the "MMS" name altogether.3 Like the Deepwater Horizon, MMS had ceased to exist.
 
-The rig's demise signals the conflicted evolution— and severe shortcomings—of federal regulation of offshore oil drilling in the United States, and particularly of MMS oversight of deepwater
+The rig's demise signals the conflicted evolution— and severe shortcomings—of federal regulation of offshore oil drilling in the United States, and particularly of MMS oversight of deepwater drilling in the Gulf of Mexico. The regulatory context for the leasing procedures and safety and environmental oversight that led up to the Macondo blowout took shape in the 1970s, when two conflicting priorities dominated the political landscape. The first to appear, in the early 1970s, was the public mandate for environmental protection, which prompted enactment of an extraordinary series of sweeping regulatory laws intended, in the language of the National Environmental Policy Act, to "create and maintain conditions under which man and nature can exist in productive harmony."4 The second was the nation's drive for energy independence; it led to new policies designed to increase domestic production and decrease American reliance on foreign energy supplies. Oil served as a catalyst for both: the Santa Barbara oil spill in 1969 helped to promote passage of demanding environmental protection mandates, and the OPEC oil embargo of 1973 amplified the urgency of efforts to make the nation more energy self-sufficient.
 
 The often competing goals of energy independence and environmental protection collide at the Department of the Interior, which historically has held broad regulatory authority in both realms. For nearly three decades a single departmental agency, the Minerals Management Service, was at the center of the offshore-oil saga.
 
-Mark Wilson/Getty Images drilling in the Gulf of Mexico. The regulatory context for the leasing procedures and safety and environmental oversight that led up to the Macondo blowout took shape in the 1970s, when two conflicting priorities dominated the political landscape. The first to appear, in the early 1970s, was the public mandate for environmental protection, which prompted enactment of an extraordinary series of sweeping regulatory laws intended, in the language of the National Environmental Policy Act, to "create and maintain conditions under which man and nature can exist in productive harmony."4 The second was the nation's drive for energy independence; it led to new policies designed to increase domestic production and decrease American reliance on foreign energy supplies. Oil served as a catalyst for both: the Santa Barbara oil spill in 1969 helped to promote passage of demanding environmental protection mandates, and the OPEC oil embargo of 1973 amplified the urgency of efforts to make the nation more energy self-sufficient.
+Mark Wilson/Getty Images
 
 %%page 56%%
 
@@ -1099,7 +1119,7 @@ Secretary Watt organized two distinct programs within his newly-minted MMS: the 
 
 The Billion-Acre Leasing Land Rush It did not take long for Secretary Watt to make sure that his new agency was fully engaged. In July 1982, just after MMS's birth, he issued a new five-year plan that envisioned leasing nearly one billion acres of the outer continental shelf from August 1982 to June 1987—18 times the 55 million acres offered by the first five-year plan of June 1980. To meet this ambitious program, he scheduled 41 sales over the ensuing five years; divided the billion acres into 18 planning areas, ranging in size from 8 million to 133 million acres; and established a streamlined process for leasing in those areas. Under this new process, MMS would no longer lease just those tracts previously designated by industry to be of interest, but would instead offer vast acreage on an "area-wide" basis.58
 
-As described in Chapter 2, area-wide leasing promoted significant new discoveries of large oil-bearing formations in contrast to the smaller fields found in shallower depths. Those additional discoveries in fact led to major technological advances and increased exploration of oil and gas reservoirs in Gulf waters. But the federal revenues generated fell short of expectations. With such a large increase in supply, the price offered for leases declined. The Sierra Club claimed that Secretary Watt's plans for accelerated leasing would cost the U.S. Treasury $77 billion over the five-year period.59 Moreover, the Gulf states persuaded Congress to increase their share of leasing revenues as compensation for physical drainage of oil and gas from reservoirs within state jurisdiction by offshore activities of federal lessees. In 1986, Congress amended the federal law to guarantee that the Gulf states would receive 27 percent of the revenues from leases in the federal zone three nautical miles
+As described in Chapter 2, area-wide leasing promoted significant new discoveries of large oil-bearing formations in contrast to the smaller fields found in shallower depths. Those additional discoveries in fact led to major technological advances and increased exploration of oil and gas reservoirs in Gulf waters. But the federal revenues generated fell short of expectations. With such a large increase in supply, the price offered for leases declined. The Sierra Club claimed that Secretary Watt's plans for accelerated leasing would cost the U.S. Treasury $77 billion over the five-year period.59 Moreover, the Gulf states persuaded Congress to increase their share of leasing revenues as compensation for physical drainage of oil and gas from reservoirs within state jurisdiction by offshore activities of federal lessees. In 1986, Congress amended the federal law to guarantee that the Gulf states would receive 27 percent of the revenues from leases in the federal zone three nautical miles beyond state waters.60 Previously the law had provided only that states should receive a "fair and equitable" portion of those revenues, an ambiguous standard that invited disagreement between the federal and state governments concerning what that portion should be.
 
 %%page 66%%
 
@@ -1107,7 +1127,7 @@ Watt and Reagan
 
 In January 1982, President Reagan's Interior Secretary, James Watt, created the Minerals Management Service (MMS) in support of his goal to open unprecedented reaches of U.S. territorial waters to oil and gas exploration. MMS had a conflicting and ultimately disastrous mandate: to both regulate offshore energy leases and collect the revenue they generated.
 
-Frank Johnston/The Washington Post via Getty Images beyond state waters.60 Previously the law had provided only that states should receive a "fair and equitable" portion of those revenues, an ambiguous standard that invited disagreement between the federal and state governments concerning what that portion should be.
+Frank Johnston/The Washington Post via Getty Images
 
 The Gulf of Mexico's still-more-special status. The distinction first drawn in the 1978 Act between offshore drilling in the Gulf of Mexico and in other parts of the nation was widened further during the 1980s and 1990s. What began as a policy allowing offshore drilling in the Gulf under a more relaxed regulatory regime than applied elsewhere gradually became a policy of allowing offshore drilling, as a practical matter, almost only in the Gulf.
 
@@ -2535,7 +2555,7 @@ Higher up the water column, light and temperature gradually increase and the asc
 
 Overhead are multitudes of seabirds—among them brown pelicans, northern gannets, and laughing gulls—that in turn feed in the ocean and coastal estuaries.14 Dozens of bird species fly the Mississippi migration route each year, a major attraction for bird watchers, who flock to coastal Louisiana and Texas to catch a glimpse of migrating and resident shorebirds and nesting seabirds. Some of these birds feed on estuarine shrimp, fish, and crabs; others depend on shellfish and other small organisms that populate the expansive mudflats. Larger wading birds stalk their prey in the shallow water of mangroves, marshes, and other habitats that shelter fish and frogs. Raptors, including ospreys, bald eagles, and peregrine falcons, also pluck their prey from any of these environments and carry it to their perches.
 
-As the unprecedented volume of oil gushing from the Macondo blowout reached the surface, it had the potential to affect all of these marine and coastal organisms and to wash into the salt marshes, mudflats, mangroves, and sandy beaches—each in its way an
+As the unprecedented volume of oil gushing from the Macondo blowout reached the surface, it had the potential to affect all of these marine and coastal organisms and to wash into the salt marshes, mudflats, mangroves, and sandy beaches—each in its way an essential habitat at one or more stages of many species' lifecycles.15 And these marine and coastal species are so interdependent that a significant effect on any one has the potential to disturb several existing populations in this complex food web.16
 
 %%page 176%%
 
@@ -2543,7 +2563,7 @@ Oiled Sargassum
 
 Wildlife biologist Mark Dodd surveys a raft of oil-soaked sargassum, also known as gulfweed. The floating beds are home to snails, shrimp, crabs, and other small creatures that—oiled or not—are ingested by turtles, dolphins, tuna, and game fish.
 
-Blair Witherington/FWC essential habitat at one or more stages of many species' lifecycles.15 And these marine and coastal species are so interdependent that a significant effect on any one has the potential to disturb several existing populations in this complex food web.16
+Blair Witherington/FWC
 
 Encountering oil. Organisms are exposed to oil through ingestion, filtration, inhalation, absorption, and fouling.17 Predators may ingest oil while eating other oiled organisms or mistaking oil globules for food. Filter feeders—including some fish, oysters, shrimp, krill, jellyfish, corals, sponges, and whale sharks—will ingest minute oil particles suspended in the water column. Surface-breathing mammals and reptiles surrounded by an oil slick may inhale oily water or its fumes. Birds are highly vulnerable to having their feathers oiled, reducing their ability to properly regulate body temperature.18 Moderate to heavy external oiling of animals can inhibit their ability to walk, fly, swim, and eat. Similarly, oiling of plants can impede their ability to transpire and conduct photosynthesis, and oiling of coastal sediments can smother the plants they anchor and the many organisms that live below.
 
@@ -2597,7 +2617,9 @@ Turtle in East Grande Terre Island, LA
 
 Sad testament to the spill, a sea turtle lies dead beside the black tide that took its life along East Grand Terre Island in Louisiana. As of November 2010, the carcasses of more than 600 of the endangered reptiles had been collected. Countless others undoubtedly perished.
 
-Benjamin Lowy/Edit by Getty Images in water, oil and lipids do mix very well, so high concentrations of petroleum can be found in the fat-rich tissues of the liver, brain, kidneys, and ovaries. Muscle generally has the lowest lipid concentrations, but fish with fatty flesh can accumulate more oil than leaner species.43 Oil constituents can be transferred through the food chain: heavier hydrocarbons can be passed from water to phytoplankton and then to zooplankton, or from sediments to polychaete worms and eventually to fish.44 Because animals that are several steps up the food chain, like small fish, have the capability to metabolize hydrocarbons fairly rapidly, their predators will actually not accumulate much from eating them. Accordingly, bioaccumulation of toxic oil components does occur in fish, but biomagnification, with increasingly higher concentrations in animals at each level, does not occur.45
+Benjamin Lowy/Edit by Getty Images
+
+in water, oil and lipids do mix very well, so high concentrations of petroleum can be found in the fat-rich tissues of the liver, brain, kidneys, and ovaries. Muscle generally has the lowest lipid concentrations, but fish with fatty flesh can accumulate more oil than leaner species.43 Oil constituents can be transferred through the food chain: heavier hydrocarbons can be passed from water to phytoplankton and then to zooplankton, or from sediments to polychaete worms and eventually to fish.44 Because animals that are several steps up the food chain, like small fish, have the capability to metabolize hydrocarbons fairly rapidly, their predators will actually not accumulate much from eating them. Accordingly, bioaccumulation of toxic oil components does occur in fish, but biomagnification, with increasingly higher concentrations in animals at each level, does not occur.45
 
 It would be impossible to sample and assess each of the thousands of marine fish and other species inhabiting the open-ocean water column. But scientists monitoring the spill along the shorelines and aboard research vessels have sampled plankton, shellfish, fish, water, sediment, and other environmental media to better understand the potential impacts on all terrestrial and marine organisms.46 Tens of thousands of samples have been collected. They will likely analyze the samples to determine concentrations of oil and dispersants, and combine that information with existing data on species populations and distributions to model the potential impact of contamination in the water column on different species. In addition, large fish—like bluefin tuna and whale sharks (the world's largest fish)— mammals, and turtles are being tagged with tracking devices so scientists can follow their movements in the hope of learning how they have been affected by the spill.47 By overlaying maps of the extent of the oil spill, derived from satellite images from the European Space Agency, with simulations of bluefin tuna spawning grounds and models of larval development, the Ocean Foundation estimated that the spill could have affected 20 percent of the 2010 season's population of bluefin tuna larvae, further placing at risk an already severely overfished species.48
 
@@ -3463,15 +3485,7 @@ This chapter presents the Commission's recommendations for addressing the causes
 
 ### Improving the Safety of Offshore Operations
 
-### Safeguarding the Environment
-
-### Strengthening Oil Spill Response, Planning, and Capacity
-
-### Advancing Well-Containment Capabilities
-
-E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf
-
-### Ensuring Financial Responsibility
+> B. Safeguarding the Environment C. Strengthening Oil Spill Response, Planning, and Capacity D. Advancing Well-Containment Capabilities E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf F. Ensuring Financial Responsibility
 
 ### Promoting Congressional Engagement to Ensure Responsible Offshore Drilling
 
@@ -4925,15 +4939,7 @@ May 21, 2010.
 
 Richard Lazarus, Executive Director Tracy Terry, Deputy Director Fred Bartlit, Chief Counsel Jay Hakes, Director of Policy & Research
 
-Priya Aiyar David Greenberg Deputy Chief Counsel Senior Policy Advisor Felicia Barnes Brent Harris Analyst Counsel Adam Benthem Lisa K. Hemmer Analyst Senior Legal Advisor Gordon Binder Joe Hernandez Senior Policy Advisor Analyst Paul Bledsoe Joel Hewett Senior Policy Advisor Analyst Jed J. Borghei Christiana James Counsel Staff Assistant
-
-### Hobson Bryan Jill Jonnes
-
-Analyst Senior Researcher Edwin H. Clark, II Nancy Kete Director of Operations Senior Analyst Kate Clark Caitlin Klevorick Senior Analyst Policy Advisor Dave Cohen Emily Lindow Press Secretary Senior Analyst Cindy Drucker Claire Luby Director of Public Engagement Assistant to the Executive Director Katherine Duncan Bethany Mabee Analyst Communications Coordinator
-
-### Jackson Eaton Scott McKee
-
-Counsel Analyst Michelle Farmer Claudia A. McMurray Executive Legal Assistant Senior Counsel for Congressional and
+Priya Aiyar David Greenberg Deputy Chief Counsel Senior Policy Advisor Felicia Barnes Brent Harris Analyst Counsel Adam Benthem Lisa K. Hemmer Analyst Senior Legal Advisor Gordon Binder Joe Hernandez Senior Policy Advisor Analyst Paul Bledsoe Joel Hewett Senior Policy Advisor Analyst Jed J. Borghei Christiana James Counsel Staff Assistant C. Hobson Bryan Jill Jonnes Analyst Senior Researcher Edwin H. Clark, II Nancy Kete Director of Operations Senior Analyst Kate Clark Caitlin Klevorick Senior Analyst Policy Advisor Dave Cohen Emily Lindow Press Secretary Senior Analyst Cindy Drucker Claire Luby Director of Public Engagement Assistant to the Executive Director Katherine Duncan Bethany Mabee Analyst Communications Coordinator J. Jackson Eaton Scott McKee Counsel Analyst Michelle Farmer Claudia A. McMurray Executive Legal Assistant Senior Counsel for Congressional and
 
 State Relations Sean Grimsley Deputy Chief Counsel
 
