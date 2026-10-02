@@ -1,4 +1,4 @@
-import {
+import { layoutPageJoins,
   pipeline,
   geometry,
   allCapsHeadings,
@@ -29,6 +29,10 @@ export default pipeline({
     },
   ],
   passes: [
+    // A paragraph run over a page break that opens on a capital, a digit or a
+    // quotation mark (or follows a full stop on a justified page) joins when the
+    // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
+    layoutPageJoins(),
     // The book is set with a gutter: left-hand (even) pages sit four columns
     // further in than right-hand ones. Against one document margin every
     // even page's text read as inset, and 816 of its paragraphs became block
