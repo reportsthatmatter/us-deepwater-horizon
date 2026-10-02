@@ -5,6 +5,9 @@ import {
   listedDivisions,
   wrappedHeadings,
   runningFurniture,
+  romanFolios,
+  photoCredits,
+  numberedOutsideTables,
 } from "@rtm/ingest";
 
 /**
@@ -33,6 +36,11 @@ export default pipeline({
     // measured on its own.
     geometry("per-page"),
     runningFurniture(),
+    // The Foreword and front matter are folioed i-xiii, a lone numeral on
+    // even pages and "vii   vii" on odd ones. Left alone they stay in the text
+    // ("Fran Ulmer v v") and the pages carry no number (reportsthatmatter-cbr).
+    // Needs an @rtm/ingest release that has romanFolios.
+    romanFolios(),
     // The report's sections are its Foreword, parts, chapters, endnotes and
     // appendices, which the contents lists; chapter openers set their titles
     // a word or two to a line with no blank before the text, so they are
@@ -45,5 +53,14 @@ export default pipeline({
     allCapsHeadings(false),
     // Chapter 9's "4. The Need for … to Improve Spill" / "Response".
     wrappedHeadings(),
+    // A photo credit ("Mark Wilson/Getty Images") set between a paragraph and
+    // the rest of its sentence took the continuation as its own text
+    // (reportsthatmatter-xay). Needs the @rtm/ingest release with photoCredits.
+    photoCredits(),
+    // Appendix D's two-column staff list sets names with initials ("C. Hobson
+    // Bryan   Jill Jonnes") that read as lettered headings; a lettered line
+    // between aligned rows is a table row (reportsthatmatter-0ij). Needs the
+    // @rtm/ingest release with numberedOutsideTables.
+    numberedOutsideTables(),
   ],
 });
