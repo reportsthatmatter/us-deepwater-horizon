@@ -1,0 +1,98 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+# Notes are endnotes (pp.323-370); some pages carry symbol footnotes (* and a dagger) at the foot.
+pages:
+  # Chapter opener on an odd page: a photograph with its caption and credit, and a paragraph that runs across the caption.
+  - pdf: 17
+    printed: 1
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B, H, I]
+    xfail: reportsthatmatter-a3y, reportsthatmatter-b89
+    xfail_only: [blocks, markers, must_contain, must_not_contain]
+    blocks:
+      - heading: "Chapter One “Everyone involved with the job . . . was completely satisfied. . .” The Deepwater Horizon, the Macondo Well, and Sudden Death on the Gulf of Mexico"
+      - paragraph: {start: "At 5:45 a.m. on Tuesday, April 20, 2010", end: "it went well.”", notes: [1]}
+      - paragraph: {start: "Outside in the Gulf, it was still dark", continues: true}
+      - paragraph: {start: "Pride of the Transocean fleet of offshore drilling rigs", end: "spilled into the Gulf."}
+      - paragraph: {start: "< Photo courtesy of Transocean", end: "Photo courtesy of Transocean"}
+    footnotes: []
+    markers: [1]
+    must_contain: ["The crew worked on the well bore, aiming always to keep the pressure inside the well"]
+    must_not_contain: ["Photo courtesy of Transocean the well bore"]
+  # Chapter opener on an odd page: a long chapter title, a photograph with a caption and a credit at the page foot, and a body paragraph that continues overleaf.
+  - pdf: 71
+    printed: 55
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B, I, ordinary, F]
+    xfail: reportsthatmatter-b89
+    xfail_only: [blocks, markers]
+    blocks:
+      - heading: "Chapter Three “It was like pulling teeth.” Oversight—and Oversights—in Regulating Deepwater Energy Exploration and Production in the Gulf of Mexico"
+      - paragraph: {start: "The Deepwater Horizon rig sank on April 22, 2010", end: "MMS had ceased to exist.", notes: [1, 2, 3]}
+      - paragraph: {start: "The rig’s demise signals the conflicted evolution", end: "make the nation more energy self-sufficient."}
+      - paragraph: {start: "The often competing goals of energy independence", end: "center of the offshore-oil saga."}
+      - paragraph: {start: "Mark Wilson/Getty Images", end: "Mark Wilson/Getty Images"}
+    footnotes: []
+    markers: [1, 2, 3]
+  # An even page (book gutter): the text sits 4-5 columns further in than on an odd page (eyc); a paragraph carried over from the page before.
+  - pdf: 72
+    printed: 56
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [D, B, ordinary, F]
+    xfail: reportsthatmatter-b89
+    xfail_only: [blocks, markers]
+    continues_previous: true
+    opens_with: "drilling in the Gulf of Mexico. The regulatory context"
+    blocks:
+      - paragraph: {start: "The federal regulation of offshore drilling awkwardly combined", end: "billions of dollars in federal revenues."}
+      - paragraph: {start: "The origins of MMS vividly illustrate that political compromise", end: "safe drilling and environmental protection.", notes: [5]}
+      - paragraph: {start: "Revenue generation—enjoyed both by industry and government", end: "response planning in case of an accident."}
+      - paragraph: {start: "On April 20, the inherent risks of decades", continues: true}
+    footnotes: []
+    markers: [4, 5]
+  # Another even page with two symbol footnotes (* and a dagger) and a paragraph that runs past the foot.
+  - pdf: 100
+    printed: 84
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, D, F]
+    xfail: reportsthatmatter-fzw
+    xfail_only: [blocks, must_not_contain, opens]
+    continues_previous: true
+    opens_with: "calculation of the worst-case discharge scenario"
+    blocks:
+      - paragraph: {start: "But neither BP, in crafting its Oil Spill Response Plan", end: "sea otters, and walruses.*"}
+      - paragraph: {start: "Even more troubling, the MMS Gulf of Mexico Regional Office", end: "seek public review or comment."}
+      - paragraph: {start: "The inescapable conclusion is striking, and profoundly unsettling", end: "environmental protection concerns was filled.†"}
+      - paragraph: {start: "Federal oversight of oil and gas activities in the Gulf of Mexico", continues: true}
+    must_not_contain: ["The BP plan does not appear to be an aberration", "The President’s decision in March 2010 to expand offshore oil and gas leasing"]
+  # Chapter 9 opener: a lettered list of seven areas (A-G), an ordinary lettered heading, and a symbol footnote.
+  - pdf: 266
+    printed: 250
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [H, I, J]
+    xfail: reportsthatmatter-a3y
+    xfail_only: [blocks, must_not_contain]
+    continues_previous: true
+    opens_with: "that set the stage for the BP Deepwater Horizon disaster"
+    blocks:
+      - paragraph: {start: "This chapter presents the Commission’s recommendations", end: "seven distinct areas:"}
+      - list: {start: "A. Improving the Safety of Offshore Operations", end: "G. Promoting Congressional Engagement to Ensure Responsible Offshore Drilling", items: 7}
+      - paragraph: {start: "The sections that follow summarize the context", end: "including prospective drilling in the Arctic."}
+      - heading: "A. Improving the Safety of Offshore Operations"
+      - paragraph: {start: "As detailed in Chapters 3 and 4", continues: true}
+    must_not_contain: ["A list of staff working papers can be found in Appendix F"]
+  # Opening of the Endnotes: a heading, two explanatory paragraphs, a chapter label, then notes 1-18 (note 1 is four lines).
+  - pdf: 323
+    printed: 307
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, H, J]
+    xfail: reportsthatmatter-b89
+    xfail_only: [blocks, footnotes]
+    blocks:
+      - heading: "Endnotes"
+      - paragraph: {start: "The Commission has reviewed thousands of pages of documents", end: "“interview with Coast Guard official”)."}
+      - paragraph: {start: "The vast majority of non-public material", end: "cited as non-public as well."}
+      - heading: "Chapter One"
+    footnotes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    markers: []
