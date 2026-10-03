@@ -1,0 +1,352 @@
+report: us-deepwater-horizon
+adjudicated: 2026-10-03
+by: "Claude (Opus 5.5) subagent, blind to the rules' call, reading the page images; every disagreement with the pipeline re-read"
+method: "Mini-reference for a report with no clean edition (38s.15; scripts/ingest/pagebreak-sample.ts, `pnpm ingest referee draft`). Population: every page turn, the last line of running text on the old page and the first on the new (pdftohtml -xml; notes, running heads and folios left out). 15 drawn by a seeded shuffle (stratum random), then 5 from each confidence tier of the layout rules at @rtm/ingest v0.21.0 (stratum tier-low/medium/high; a short tier topped up from the others). Each break was answered from the rendered page images (the foot of the old page, the head of the new one), blind to the rules' call: does a new block (paragraph, bullet, numbered paragraph, quotation, heading) start between the two lines, or does the block run on? prev and next are the running-text lines either side; when notes, a caption or a heading stand between, the verdict says whether the paragraph's text continues on the new page, and `between` names what stands between. `set` assigns the break to development or held-out (alternating within each stratum, seeded); `tier` and `rule` are the rules' call at v0.21.0 when drawn."
+seed: "38s.15"
+breaks:
+  - page: 4
+    prev: "Adam Weise"
+    next: "Acknowledgements"
+    verdict: split
+    stratum: tier-low
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    above: "Shane Roshto "
+    drawn: "low; Dedication / Acknowledgements"
+    note: "Drawn prev 'Dedication' is the page title (text-layer order); last running line is the name 'Adam Weise'. New page opens with heading Acknowledgements."
+  - page: 6
+    prev: "January 2011 "
+    next: "Commission Members"
+    verdict: split
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    above: "Oil Spill and Offshore Drilling "
+    note: "Title page ends; new page opens with heading Commission Members."
+  - page: 9
+    prev: "This report is the result of an intense six-month effort to fulfill the President’s charge.  "
+    next: "From the outset, the Commissioners have been determined to learn the essential "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    note: "By content (block-style flush paragraphs): one-line paragraph ends well short of the page foot with room left; new page starts a new thought."
+  - page: 14
+    prev: "people—in the context of the progressive degradation of the Mississippi Delta environment. "
+    next: "Chapters 8 through 10 present our recommendations for reforms in business practices, "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    note: "By content: parallel 'Chapters 4 through 7' / 'Chapters 8 through 10' paragraphs; old page ends short of the foot."
+  - page: 38
+    prev: "Field.1"
+    next: "The Creole platform severed oil extraction from land—and did so profitably, setting in "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: caption
+    image: true
+    above: "in the first well from what was named the Creole "
+    drawn: "high; personality” / The Creole platform severed oil extracti"
+    note: "Drawn prev is the chapter title (text-layer order); last body line is 'Field.1'. Photo caption sits below. By content: new paragraph 'The Creole platform...'."
+  - page: 41
+    prev: "described it as “a billion-dollar adventure in applied science”9), but it was astoundingly "
+    next: "successful. In 1956, 26 percent of offshore exploratory wells struck oil and gas, compared "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence runs on: 'astoundingly / successful'."
+  - page: 47
+    prev: "vexing challenge."
+    next: "Constrained Expansion"
+    verdict: split
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    note: "New page opens with heading Constrained Expansion."
+  - page: 77
+    prev: "pursuant to a development and production plan.38 "
+    next: "At the same time, the statute also made clear that environmental safeguards are a relevant, "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: figure
+    image: true
+    sure: false
+    note: "By content and layout: old page ends a line short of the foot after a finished sentence (paragraph ended); Figure 3.1 and caption fill the new page before 'At the same time...'."
+  - page: 101
+    prev: "ensuring the safety of drilling operations. Many aspects of national environmental law "
+    next: "were ignored, resulting in less oversight than would have applied in other areas of the "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Sentence runs on: 'environmental law / were ignored'."
+  - page: 114
+    prev: "into position. The leading end of the casing, "
+    next: "the “shoe track,” began with a “reamer shoe”—a bullet-shaped piece of metal with three "
+    verdict: join
+    stratum: tier-low
+    set: dev
+    tier: low
+    rule: "split: unfinished, but a short last line"
+    between: figure
+    image: true
+    note: "Sentence runs on: 'The leading end of the casing, / the shoe track'. Figure 4.4 with caption sits in the side column of the old page."
+  - page: 132
+    prev: "failure to use 15 additional centralizers was a direct cause of the blowout. But the process "
+    next: "by which BP arrived at the decision to use only six centralizers at Macondo illuminates the "
+    verdict: join
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Sentence runs on: 'But the process / by which'."
+  - page: 134
+    prev: "to the results. It appears that Halliburton personnel responded instead by modifying the"
+    next: "test conditions—specifically, the pre-testing conditioning time—and thereby achieving an "
+    verdict: join
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Sentence runs on: 'modifying the / test conditions'."
+  - page: 135
+    prev: "primary cement at Macondo. "
+    next: "It is now undisputed that the negative-pressure test at Macondo was conducted and "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    sure: false
+    note: "By content: full page, block-style paragraphs; 'It is now undisputed...' reads as a new paragraph after the short intro under the Negative-Pressure Test heading, but could be one paragraph."
+  - page: 152
+    prev: "oversight. One MMS employee asserted that BP, and industry more broadly, possessed 10 "
+    next: "times the expertise that MMS could bring to bear on the complex problem of deepwater "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Sentence runs on: 'possessed 10 / times the expertise'."
+  - page: 160
+    prev: "dispersants immediately following a spill.113 Timing matters, because the chemicals "
+    next: "are most effective when oil is fresh, before it has weathered and emulsified.114 Without "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence runs on: 'because the chemicals / are most effective'."
+  - page: 173
+    prev: "group of experts to examine the merits of Louisiana’s proposal as a spill-response measure. "
+    next: "Admiral Allen replied that this might take some time. It was the Friday afternoon before "
+    verdict: join
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    sure: false
+    note: "By content: join after a finished sentence. Full page, block-style; the Grand Isle anecdote continues ('asked him to assemble a group of experts' / 'Admiral Allen replied...'), which reads as the same paragraph."
+  - page: 177
+    prev: "additional data, EPA threatened to issue a directive “to stop the use of all dispersants.”256"
+    next: "The working relationship between the agencies improved over time, with more complete "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: notes
+    image: true
+    sure: false
+    note: "By content: the EPA threat closes the June 7 episode; 'The working relationship between the agencies improved over time' opens a new paragraph."
+  - page: 204
+    prev: "risks to public health. According to Timothy Fitzgerald, Senior Policy Analyst for the "
+    next: "Environmental Defense Fund’s Ocean Program, “Most people have very little connection "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence runs on: 'Senior Policy Analyst for the / Environmental Defense Fund'."
+  - page: 213
+    prev: "recover from past destruction."
+    next: "Recovery and Restoration "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: figure
+    image: true
+    note: "Chapter 6 ends; page 212 is a full-page satellite image with no text; Chapter Seven opener with subtitle heading follows."
+  - page: 247
+    prev: "options, to ensure that safety is not traded off for performance.81 The Technical Authority "
+    next: "approves these acceptable options.82 The Safety Authority is responsible for administering "
+    verdict: join
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence runs on: 'The Technical Authority / approves'."
+  - page: 248
+    prev: "to a reopener provisions allowing for an additional $100 million.92*"
+    next: "Following the spill, both government policy and industry practice changed dramatically. "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: low
+    rule: "split: unfinished, but a short last line"
+    between: figure
+    image: true
+    sure: false
+    drawn: "high; forts to be vigilant against complacency / Following the spill, both government pol"
+    note: "Drawn prev is the last item of the SUBSAFE sidebar box (it continues from p.231, top of this page); the real last body line is 'to a reopener provisions allowing for an additional $100 million.92*', which is not in old_lines (id estimated as 28, just before the footnote and box). Footnote below it; Exxon Valdez photo and caption head the new page. By content, 'Following the spill...' starts a new paragraph."
+  - page: 263
+    prev: "the end of 2010. "
+    next: "The Challenge of Change  "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    above: "respond to and contain spills that do occur. None of these proposals had been enacted by "
+    note: "Old page ends short; new page opens with heading The Challenge of Change."
+  - page: 278
+    prev: "decisions affecting OCS oil and gas activities.  "
+    next: "•  Interior should require, through this formal NEPA handbook, environmental impact "
+    verdict: split
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "split: next opens on a label"
+    between: none
+    image: true
+    note: "New bullet item."
+  - page: 284
+    prev: "plans and procedures for Spills of National Significance. In those amendments, EPA should:"
+    next: "•  Increase government oversight of the responsible party, based on the National "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: next opens on a label"
+    between: none
+    image: true
+    note: "Lead-in ending 'EPA should:' followed by the first bullet item."
+  - page: 289
+    prev: "that possess relevant scientific expertise in source-control. "
+    next: "Create a mechanism for involving outside industry experts in source-control design "
+    verdict: split
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    sure: false
+    note: "New page's line sits at the bullet-text indent without a printed bullet, but it is a separate imperative list item ('Create a mechanism...') parallel to 'Define and institutionalize...'; the previous item ends with a full stop."
+  - page: 297
+    prev: "directly contributed to the environmental problem. "
+    next: "Experience in major restoration endeavors, including those in the Gulf, has shown that, "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: notes
+    image: true
+    sure: false
+    note: "By content: the council paragraph ends; 'Experience in major restoration endeavors...' opens a new argument. Block-style, full page."
+  - page: 301
+    prev: "ensure that victims of spills do not go uncompensated."
+    next: "Legislative attempts to raise the cap and financial responsibility requirements to "
+    verdict: split
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    sure: false
+    note: "By content: full page, block-style; 'Legislative attempts to raise the cap...' opens a new paragraph after the recommendation's explanatory paragraph."
+  - page: 318
+    prev: "lease sale.23"
+    next: "If deemed feasible, new offshore Alaskan oil production may be well-timed to offset the "
+    verdict: split
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    above: "for almost 2.8 million acres, including $2.1 billion from Shell Oil Company, during a 2008 "
+    note: "By content and layout: the old page ends a line short of the foot after a finished sentence; 'If deemed feasible...' starts a new paragraph."
+  - page: 373
+    prev: "Yale School of Forestry and Environmental Science."
+    next: "DONALD F. BOESCH, Member, is President of the University of "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: figure
+    image: true
+    note: "New commissioner bio entry (DONALD F. BOESCH) with portrait; page ends with space."
+  - page: 383
+    prev: "Damage Recovery (No. 14)"
+    next: "Long-Term Regional Restoration in the Gulf: Funding Sources and Governance Structures "
+    verdict: split
+    stratum: tier-low
+    set: dev
+    tier: low
+    rule: "split: unfinished, but a short last line"
+    between: none
+    image: true
+    note: "List of staff working papers: each entry is a separate block."
