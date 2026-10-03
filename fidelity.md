@@ -1,6 +1,6 @@
 # Fidelity review — Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling
 
-Pages: 386  ·  Footnotes: 794  ·  Auto-fixes applied: 101  ·  Human corrections: 0
+Pages: 386  ·  Footnotes: 1495  ·  Auto-fixes applied: 101  ·  Human corrections: 0
 
 **111 open**, 0 reviewed and judged correct.
 

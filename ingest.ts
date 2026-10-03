@@ -8,6 +8,8 @@ import { layoutPageJoins,
   romanFolios,
   photoCredits,
   numberedOutsideTables,
+  layoutEndnotes,
+  layoutMarkers,
 } from "@rtm/ingest";
 
 /**
@@ -66,5 +68,14 @@ export default pipeline({
     // between aligned rows is a table row (reportsthatmatter-0ij). Needs the
     // @rtm/ingest release with numberedOutsideTables.
     numberedOutsideTables(),
+    // The notes are printed together in an "Endnotes" appendix, numbered afresh
+    // under a subhead per chapter ("Chapter One"), half of their numbers set
+    // small on a line of their own. Read off the layout, they are notes, not
+    // 269 body paragraphs, and each is labelled by its chapter
+    // (reportsthatmatter-b89).
+    layoutEndnotes(),
+    // The body's markers are raised in the PDF; each links to its own
+    // chapter's note, never by page (reportsthatmatter-kgz8).
+    layoutMarkers({ scope: "chapter" }),
   ],
 });
