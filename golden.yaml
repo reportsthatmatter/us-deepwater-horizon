@@ -8,8 +8,11 @@ pages:
     printed: 1
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [B, H, I]
-    xfail: reportsthatmatter-a3y
-    xfail_only: [blocks, must_contain, must_not_contain]
+    # With endnotes (b89) and the page-break look-past (y7ix) the blocks, must_contain and must_not_contain pass (a3y narrowed).
+    # The p.18 continuation is joined onto "Outside in the Gulf", so its notes 2-3 sit on this page's second block;
+    # the golden check lets only a page's last block hold the next page's markers (qzix).
+    xfail: reportsthatmatter-qzix
+    xfail_only: [markers]
     blocks:
       - heading: "Chapter One “Everyone involved with the job . . . was completely satisfied. . .” The Deepwater Horizon, the Macondo Well, and Sudden Death on the Gulf of Mexico"
       - paragraph: {start: "At 5:45 a.m. on Tuesday, April 20, 2010", end: "it went well.”", notes: [1]}
