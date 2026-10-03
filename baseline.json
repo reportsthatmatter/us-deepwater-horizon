@@ -1,11 +1,11 @@
 {
-  "markdownSha": "8a3b0da82f75280b39f7ad63d2dda7a18f3f7581f98c2a5ed965ddf0309d8dda",
-  "words": 179564,
+  "markdownSha": "ca941e170b53c5a4408f47cb604975661e36d1b3473f9e93b93b80b509782989",
+  "words": 180241,
   "blocks": {
     "heading": 55,
-    "quote": 75,
+    "quote": 70,
     "list": 141,
-    "paragraph": 2269
+    "paragraph": 1695
   },
   "headings": [
     "Foreword",
@@ -64,7 +64,7 @@
     "Index",
     "Notes"
   ],
-  "footnotes": 794,
-  "pageMarkers": 351,
+  "footnotes": 1495,
+  "pageMarkers": 321,
   "poppler": "26.08.0"
 }
