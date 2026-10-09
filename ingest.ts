@@ -10,7 +10,35 @@ import { layoutPageJoins,
   numberedOutsideTables,
   layoutEndnotes,
   layoutMarkers,
+  type BodyPass,
 } from "@rtm/ingest";
+
+/**
+ * Chapter 9 opens with its seven areas of recommendation as a lettered list ("A. Improving the Safety of
+ * Offshore Operations" ... "G. Promoting Congressional Engagement"), one short line each in the body face.
+ * Read line by line, "A." and "G." became headings (the letter lost) and "B."-"F." one block quotation
+ * (reportsthatmatter-a3y). A run of four or more lines lettered A, B, C ... in sequence is a list.
+ */
+const LETTER_ITEM = /^\s*([A-Z])\.\s+\S/;
+const letteredRuns: BodyPass = {
+  name: "letteredRuns",
+  stage: "body",
+  run(lines) {
+    const out = [...lines];
+    let i = 0;
+    while (i < lines.length) {
+      let j = i;
+      while (j < lines.length && LETTER_ITEM.exec(lines[j])?.[1] === String.fromCharCode(65 + (j - i))) j++;
+      if (j - i >= 4 && LETTER_ITEM.exec(lines[i])?.[1] === "A") {
+        for (let k = i; k < j; k++) out[k] = `• ${lines[k].trim()}`;
+        i = j;
+      } else {
+        i++;
+      }
+    }
+    return out;
+  },
+};
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -35,6 +63,7 @@ export default pipeline({
     // quotation mark (or follows a full stop on a justified page) joins when the
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
     layoutPageJoins(),
+    letteredRuns,
     // The book is set with a gutter: left-hand (even) pages sit four columns
     // further in than right-hand ones. Against one document margin every
     // even page's text read as inset, and 816 of its paragraphs became block
