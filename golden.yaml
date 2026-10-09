@@ -72,7 +72,7 @@ pages:
     printed: 250
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [H, I, J]
-    xfail: reportsthatmatter-a3y
+    xfail: reportsthatmatter-fzw
     xfail_only: [blocks, must_not_contain]
     continues_previous: true
     opens_with: "that set the stage for the BP Deepwater Horizon disaster"
